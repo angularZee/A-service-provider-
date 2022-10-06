@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    
+}
+#navbarr{
+position: sticky;
+top: 0%;
+z-index: 10;
+background-image: linear-gradient(to right, #a517ba,  #5f1782);
+padding: 0% !important;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color: #fff;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/* HOME */
+
+#banner{
+    background-image:  linear-gradient(to right, #a517ba,  #5f1782);
+    color:#fff;
+    padding-top:5% ;
+}
+.promo-title{
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.play-button{
+    background-color: #a517ba;
+    width: 40px;
+    margin: 20px;
+}
+
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.imgg{
+
+    background-image:  linear-gradient(to right, #a517ba,  #5f1782);
+        width:100%;
+}
+
+
+/* SERVICES */
+
+#services{
+    text-align: center;
+    padding: 50px 0;
+
+}
+.services-img{
+    width: 100px;
+    margin-top: 20px;
+}
+.services{
+    padding: 20px;
+}
+#services h4{
+    padding: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.title::before{
+    content: "";
+    background-color: #5f1782;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 200px;
+    height: 5px;
+    transform: translateY(63px);
+}
+.title::after{
+    content: "";
+    background-color: #5f1782;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70px;
+    height: 10px;
+    transform: translateY(17px);
+    margin-bottom: 40px;
+}
+
+#services .btn-primary{
+    border: none;
+    border-radius: 20px;
+    padding: 8px 30px;
+    box-shadow: none;
+    background-image:  linear-gradient(to right, #a517ba,  #5f1782);
+}
+
+
+
+/* ABOUT US  */
+
+#about-us{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #f8f9fa;
+}
+
+.stitle{
+    margin-top: 8px;
+}
+.stitle::before{
+    content: "";
+    background-color: #5f1782;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 200px;
+    height: 5px;
+    transform: translateY(73px);
+}
+.stitle::after{
+    content: "";
+    background-color: #5f1782;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70px;
+    height: 10px;
+    transform: translateY(17px);
+    margin-bottom: 40px;
+}
+#about-us h2{
+margin-top: 20px;
+}
+
+#about-us ul{
+    margin-left: 20px;
+}
+#about-us ul li{
+    margin: 10px 0;
+}
+
+/* TESTIMONIALS */
+
+#testimonials{
+    margin: 100px 0;
+}
+
+.testimonials{
+    border-left: 5px solid #7b1798;
+    padding: 20px ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+
+.user-detail{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* SOCIAL MEDIA */
+#social-media{
+    background-color: #f8f9fa;
+    padding: 100 0;
+}
+
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    height: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+
+/* FOOTER */
+
+#footer{
+    background-image:  linear-gradient(to right, #a517ba,  #5f1782);
+    color: #fff;
+}
+
+.footer-img{
+    width: 100%;
+}
+
+.footer-box{
+padding: 20px;
+}
+
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image:  linear-gradient(to right, #a517ba,  #5f1782);
+  
+}
+.form-control{
+   margin: 20px 0;
+   max-width: 250px;
+   box-shadow: none;
+   border-radius: none;
+}
+.footer-box .btn{
+    background-image:  linear-gradient(to right, #a517ba,  #5f1782);
+  border: none; 
+}
+he{
+    color: #fff;
+}
+.copywrites{
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
